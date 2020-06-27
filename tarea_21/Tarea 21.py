@@ -48,5 +48,3 @@ denominador=denominador//MCD
 numerador=numerador//MCD
 print("La fracción irreducible de ", x, "es ", numerador, "/", denominador)
 
-#https://es.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/the-euclidean-algorithm
-
