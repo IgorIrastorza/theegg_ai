@@ -20,7 +20,7 @@ def numerocorrecto(numerointroducido):
     else:
         return True
 
-#El programa empieza aqui
+#El programa empieza aquí
 numerointroducido=input("Introduce un numero: ")
 
 #Hasta que no introduzca el número correcto estará dentro del bucle
