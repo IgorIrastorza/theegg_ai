@@ -1,6 +1,6 @@
-﻿Tarea 21
+﻿#Tarea 21
 
-	# ENUNCIADO
+## ENUNCIADO
 	Usted es un original empresario de Azkoitia, y tiene la brillante idea de abrir una tienda de la leche en la Plaza del pueblo. 
 	Como es una persona muy prudente, desea que la leche que venderá sea perfectamente natural y fresca, y por esa razón, va a 
 	traer unas sanísimas vacas de desde Tolosa. Dispone de un camión con un cierto límite de peso, y un grupo de vacas disponibles 
@@ -18,7 +18,7 @@
 	Salida: Cantidad máxima de producción de leche se puede obtener.
 ___
 
-	# SOLUCIÓN
+## SOLUCIÓN
 	Este tipo de problemas recursivos requieren normalmente la comprobación de todas las soluciones posibles, obteniendo una relación 
 	exponencial del numero de operaciones a realizar a medida que el número de vacas crece. No obstante, con el objetivo de reducir 
 	el número de operaciones necesarias, este problema de optimización será resuelto mediante ** programación dinámica **, que permite 
