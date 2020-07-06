@@ -1,4 +1,4 @@
-Tarea 21
+﻿Tarea 21
 
 	ENUNCIADO
 	Usted es un original empresario de Azkoitia, y tiene la brillante idea de abrir una tienda de la leche en la Plaza del pueblo. 
@@ -16,11 +16,12 @@ Tarea 21
 	
 	2.- El algoritmo que se programe tiene que calcular la siguiente salida:
 	Salida: Cantidad máxima de producción de leche se puede obtener.
+___
 
 	SOLUCIÓN
 	Este tipo de problemas recursivos requieren normalmente la comprobación de todas las soluciones posibles, obteniendo una relación 
 	exponencial del numero de operaciones a realizar a medida que el número de vacas crece. No obstante, con el objetivo de reducir 
-	el número de operaciones necesarias, este problema de optimización será resuelto mediante *programación dinámica*, que permite 
+	el número de operaciones necesarias, este problema de optimización será resuelto mediante **programación dinámica**, que permite 
 	limitar el aumento del número de operaciones a una relación lineal.
 	
 	La programación dinámica trata de resolver un problema complejo dividiendo este en subproblemas, más pequeños, resolviendo estos últimos
@@ -44,7 +45,7 @@ Tarea 21
 			| -- | -- | -- | -- | -- | -- | -- | -- |
 			| A | 0 | 0 | 0 | 6 | 6 | 6 | 6 |
 			
-			
+			table(
 	
 	
 	------------------------------------------
