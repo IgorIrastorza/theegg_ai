@@ -61,7 +61,7 @@ del enunciado de este problema para no alargarlo en exceso):
 | **B** | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | **C** | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 
-  Como se observa, las referencias de las etapas se encuentran en la primera columna y las de los estados en la primera fila, aunque en el codigo del ejercicio se han omitido esa fila y columna. En el resto de casillas de la tabla se aplicará el siguiente algoritmo:
+  Como se observa, las referencias de las etapas se encuentran en la primera columna y las de los estados en la primera fila, aunque en el código del ejercicio se han omitido esa fila y columna. En el resto de casillas de la tabla se aplicará el siguiente algoritmo:
   
   ![Algoritmo a aplicar en cada etapa](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_22/Algoritmo%20programaci%C3%B3n%20din%C3%A1mica.png)
   
