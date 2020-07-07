@@ -40,12 +40,15 @@ del enunciado de este problema para no alargarlo en exceso):
   - B: (5kg, 7€)
   - C: (6kg, 8€)
 - SOLUCIÓN:
-https://thales.cica.es/rd/Recursos/rd99/ed99-0033-04/din_introd.html
+
+  Para aplicar programación dinámica lo primero será identificar los siguientes conceptos:
 
   - Etapa: Se puede definir como cada uno de los pasos que se deben seguir para llegar al objetivo. En este caso, cada objeto será una 
   etapa: 0, A, B, C
   - Estado: Son las diversas condiciones posibles en la que el sistema podría estar en esa etapa del problema. En este caso, los estados 
   serán el posible peso a introducir en la mochila: 0, 1, 2, 3, 4, 5, 6
+  
+  Un ejemplo para diferenciar de una manera más facil etapa (lineas discontinuas) y estado (círculos) puede ser el siguiente diagrama:
   
   ![Ejemplo gráfico de etapas y estados](https://www.monografias.com/trabajos104/la-programacion-dinamica/image001.jpg)
   
@@ -60,7 +63,7 @@ https://thales.cica.es/rd/Recursos/rd99/ed99-0033-04/din_introd.html
 
   Como se observa, las referencias de las etapas se encuentran en la primera columna y las de los estados en la primera fila, aunque en el codigo del ejercicio se han omitido esa fila y columna. En el resto de casillas de la tabla se aplicará el siguiente algoritmo:
   
-  ![Algoritmo a aplicar en cada etapa](C:/Users/igori/Documents/MEGA/Antolakuntza/The Egg/Github/theegg_ai/tarea_22/Algoritmo programación dinámica.png)
+  ![Algoritmo a aplicar en cada etapa](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_22/Algoritmo%20programaci%C3%B3n%20din%C3%A1mica.png)
   
   O en código:
   ```python
