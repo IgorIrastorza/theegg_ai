@@ -171,6 +171,7 @@ alfabeto = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N'
 alfabetonumero=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
 indicesimbolo=['C', 'D', 'H','S']
 mensaje=input("Introduce un mensaje: ")
+#Hasta que no introduzca ningún número estará dentro del bucle
 while mensajeconnumero(mensaje)==True:
     mensaje=input("Si quieres escribir algun número en tu mensaje introducelo en modo texto: ")
 #Quitamos espacios y todo lo que no sean palabras del mensaje
