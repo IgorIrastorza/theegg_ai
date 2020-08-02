@@ -16,9 +16,9 @@ ___
 El programa ha sido planteado de la siguiente manera:
 - Para empezar, el usuario emisor introduce el mensaje que 
 desea enviar y después se guarda y trocea en un array. 
-- Una vez realizado esto, se aplica el algoritmo del Solitario (en la bibiliografia aparece un link donde se detalla paso a paso como funciona)
+- Una vez realizado esto, se aplica el algoritmo del Solitario (en la bibiliografía aparece un link donde se detalla paso a paso como funciona)
 para generar el mensaje cifrado.
-- El receptor recibe el mensaje cifrado y lo descifra aplicando también el algoritmo del solitario.
+- El receptor recibe el mensaje cifrado y lo descifra aplicando también el algoritmo del Solitario.
 
 La clave al aplicar el algoritmo mencionado es la generación de la ristra. Es como la ¨contraseña¨ 
 que permite cifrar y descifrar y será necesario que tanto el emisor como el receptor generen la misma ristra. 
