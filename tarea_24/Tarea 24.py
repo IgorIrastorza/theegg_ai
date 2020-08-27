@@ -40,14 +40,3 @@ if aux is True:
 
 print('Número equivalente en binario: ',
       (''.join(str(v) for v in numerobinario)))
-# Mirar lo de las clases
-# https://pythones.net/clases-y-metodos-python-oop/
-# https://tutorial.recursospython.com/clases/
-# https://programacion.net/articulo/como_funcionan_las_clases_y_objetos_en_python_1505
-
-# Convertidor analogico-digital
-# https://soundgirls.org/entendiendo-los-convertidores-ad-da/
-# https://www.diferenciador.com/sistema-digital-y-sistema-analogico/
-# https://bookdown.org/aquintela/EBE/variables-discretas-y-continuas.html
-# https://www.youtube.com/watch?v=w1K1InJYZh4
-# https://www.youtube.com/watch?v=-4rUKlNeCEs
