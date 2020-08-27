@@ -12,7 +12,7 @@ El programa ha sido planteado de la siguiente manera:
 - El programa comprueba si el formato de numero introducido es correcto y lo clasifica como número decimal con/sin parte fraccional.
 - Una vez realizado esto, se aplica el siguiente algoritmo para hacer la conversión:
 
-![Algoritmo a aplicar en cada etapa](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_22/Algoritmo%20programaci%C3%B3n%20din%C3%A1mica.png)
+![Algoritmo a aplicar en cada etapa](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_24/Decimal_Binario.png)
 
 - El usuario recibe el número en binario.
 
