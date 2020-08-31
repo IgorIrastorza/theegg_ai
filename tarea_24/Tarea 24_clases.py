@@ -18,7 +18,6 @@ class Binario:
     def __init__(self):
         self.division = 0
         self.binarray = []
-        # Como se declara una variable boleana sin decir si es true o false???
         self.numdespcoma = False
 
     def decimal_to_binary(self, numerodecimal):
