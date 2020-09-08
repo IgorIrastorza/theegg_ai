@@ -9,7 +9,7 @@ ___
 ## Solución
 El programa ha sido planteado siguiendo el siguiente diagrama de flujo:
 
-![Algoritmo a aplicar en cada etapa](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_24/Decimal_Binario.png)
+![Algoritmo a aplicar en cada etapa](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_33/diagrama%20de%20flujo_tarea33.png)
 
 Ejemplo de ejecución del programa:
 
