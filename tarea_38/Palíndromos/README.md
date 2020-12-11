@@ -19,7 +19,7 @@ El programa ha sido planteado en dos fases:
 - En el segundo apartado, una vez introducido un número correcto, se procede a encontrar el número más cercano, que 
 siendo igual o mayor que N, sea palindromo y primo a la vez.
 
-El algoritmo general que sigue el programa es el siguiente:
+El algoritmo general que sigue el programa en el segundo apartado el siguiente:
 
 ![Algoritmo general](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_38/Pal%C3%ADndromos/diagrama%20de%20flujo_principal.png)
     
