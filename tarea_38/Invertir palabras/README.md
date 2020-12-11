@@ -8,7 +8,7 @@ La salida debe ser "Case #" seguido del número de caso, de un símbolo de "dos 
 ## Solución
 La solución planteada en el siguiente problema ha sido resumida en el siguiente diagrama de flujo:
 
-![Algoritmo para invertir el mensaje](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_33/diagrama%20de%20flujo_tarea33.png)
+![Algoritmo para invertir el mensaje](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_38/Invertir%20palabras/Diagrama%20de%20flujo%20tarea38_2.png)
 
 La clave para la resolución ha sido identificar los diferentes espacios que ha insertado el usuario en el mensaje. El espacio permite identificar
 el principio y final de cada palabra para despues introducirlo en un nuevo array que contendrá el resultado final. Para poder operar con las posiciones

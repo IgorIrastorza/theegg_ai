@@ -38,7 +38,7 @@ Una vez acabada la secuencia, se comprobará si su longitud es mayor a la regist
 
 La solución planteada en el problema a partir de la introducción de las dos secuencias también ha sido resumida en el siguiente diagrama de flujo:
 
-![Algoritmo para encontrar la secuencia común más larga](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_33/diagrama%20de%20flujo_tarea33.png)
+![Algoritmo para encontrar la secuencia común más larga](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_38/El%20bi%C3%B3logo/diagrama%20de%20flujo_el%20biologo.png)
 
 Ejemplo de ejecución del programa:
 

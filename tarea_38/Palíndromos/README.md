@@ -19,17 +19,17 @@ El programa ha sido planteado en dos fases:
 - En el segundo apartado, una vez introducido un número correcto, se procede a encontrar el número mas cercano, que 
 siendo igual o mayor que N, sea palindromo y primo a la vez:
 
-![Algoritmo general](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_33/diagrama%20de%20flujo_tarea33.png)
+![Algoritmo general](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_38/Pal%C3%ADndromos/diagrama%20de%20flujo_principal.png)
     
 La primera comprobación en todos los número sera ver si es palindromo o no siguiendo el siguiente algoritmo:
 
-![Algoritmo para saber si es palíndromo](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_33/diagrama%20de%20flujo_tarea33.png)
+![Algoritmo para saber si es palíndromo](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_38/Pal%C3%ADndromos/diagrama%20de%20flujo_pal%C3%ADndromo.png)
 
 Sí el número resulta ser palíndromo, se hará una segunda comprobación mediante otra función
 para saber si es primo o no. Se ha asignado este orden de comprobación para optimizar lo máximo posible el programa, ya que 
 la cantidad de números palíndromos es menor a la de primos.
 
-![Algoritmo para saber si es primo](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_33/diagrama%20de%20flujo_tarea33.png)
+![Algoritmo para saber si es primo](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_38/Pal%C3%ADndromos/diagrama%20de%20flujo_primo.png)
 
 Ejemplo de ejecución del programa:
 
