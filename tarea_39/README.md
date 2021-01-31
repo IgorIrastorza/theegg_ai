@@ -22,19 +22,19 @@ con dirección IP 171.16.1.0 y mascára de subred 255.255.255.0:
     - Dirección IP: 172.16.1.100
     - Máscara de subred: 255.255.255.0
 
-![Configuración de red](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_33/diagrama%20de%20flujo_tarea33.png)
+![Configuración de red](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_39/images/Servidor%20web%20y%20DNS.png)
 
 En el servidor web se han guardado los archivos html que contiene la página web, y en el servidor DNS, el nombre de la página y su correspondiente dirección IP. Cuando uno de los ordenadores tecleé una dirección en su navegador, este realizará primero una consulta DNS para saber en que dirección se encuentra el servidor web que aloja la pagina web. Una vez resuelta la consulta, el ordenador cliente establecerá comunicación con la dirección IP del servidor.
 
 En este caso, para comprobar el correcto funcionamiento de la red, se ha navegado desde los PC a la pagina web "www.holamundo.es" previamente registrada en los servidores, obteniendo los siguientes resultados:
 
-![Resultados de la navegación](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_33/diagrama%20de%20flujo_tarea33.png)
+![Resultados de la navegación](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_39/images/Servidor%20web%20y%20DNS_comprobacion.png)
 
 ## Red 2: servidor DHCP
 
 En este segundo ejercicio se ha construido una red en la que las direcciones IP se asignan dinámica y automaticamente gracias a un servidor DHCP. La configuración de red es la siguiente:
 
-![Configuración de red](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_33/diagrama%20de%20flujo_tarea33.png)
+![Configuración de red](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_39/images/Servidor%20DHCP.png)
 
 EL servidor DHCP se ha configurado de la siguiente manera:
 - Dirección IP del servidor: 172.16.1.254
@@ -49,7 +49,7 @@ En cuanto al servicio DHCP que prestará:
 
 Para comprobar que el servicio DHCP ha funcionado correctamente en la configuración construida, se ha simulado el envio de mensajes entre los ordenadores conectados a la red:
 
-![Comprobación de red](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_33/diagrama%20de%20flujo_tarea33.png)
+![Comprobación de red](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_39/images/Servidor%20DHCP_comprobacion.png)
 
 ## Red 3: VLAN básica
 
@@ -57,17 +57,17 @@ En el siguiente ejercicio se ha construido una red con distintas VLAN. Este tipo
 
 Por lo tanto, el esquema de la red diseñada y los datos introducidos en cada elemento para su correcto funcionamiento son los siguientes:
 
-![Configuración de red](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_33/diagrama%20de%20flujo_tarea33.png)
+![Configuración de red](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_39/images/VLAN%20b%C3%A1sica.png)
 
 A continuación, se han llevado a cabo dos comprobaciones para comprobar que la red funciona correctamente:
 - Comando "sh vlan" en los dos switches para comprobar las VLAN registradas y sus correspondientes interfaces.
 
-![Comprobación de red 1](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_33/diagrama%20de%20flujo_tarea33.png)
+![Comprobación de red 1](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_39/images/VLAN%20b%C3%A1sica_comprobaci%C3%B3n.png)
 
 - Simulación de mensajes entre ordenadores clientes de la misma VLAN y distinta. Como se puede observar en los resultados obtenidos
 solo ha sido satisfactorio el envio de mensajes entre los ordenadores pertenecientes a la misma VLAN.
 
-![Comprobación de red 2](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_33/diagrama%20de%20flujo_tarea33.png)
+![Comprobación de red 2](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_39/images/VLAN%20b%C3%A1sica_comprobaci%C3%B3n%201.png)
 
 ## Red 4: VLAN mediante router
 En este ejercicio se crean tres redes VLAN en un switch, que posteriormente se comunican mediante un router. Esta topologia permitirá que diferentes VLAN se comuniquen entre si, ya que una estación que pertenece a una VLAN no puede comunicarse con ningún dispositivo de otra VLAN solo mediante un switch (Red 3) pero si mediante un router.
@@ -81,15 +81,15 @@ En este ejercicio se han creado las siguientes VLAN:
 Una vez conectados los clientes a su correspondiente interfaz del switch, esta se conecta al router mediante un enlace trunk (puerto 24). Una vez en el router, se usa el tipo de configuración “Router-on-a-stick” en la cual una única interfaz física enruta el tráfico entre varias VLAN en una red. Para ello, se crean tres distintas subinterfaces, que son interfaces virtuales basadas en software, asociadas con una única interfaz física; se configuran en software en un router, y cada subinterfaz se configura de manera independiente con una dirección IP y una asignación de VLAN.
 
 En conclusión, la topología y los ajustes parametrizados en cada dispositivo son los siguientes:
-![Configuración de red](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_33/diagrama%20de%20flujo_tarea33.png)
+![Configuración de red](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_39/images/VLAN%20mediante%20router.png)
 
 Y las comprobaciones de que hay conexión entre mismas y distintas VLAN:
-![Comprobación de red](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_33/diagrama%20de%20flujo_tarea33.png)
+![Comprobación de red](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_39/images/VLAN%20mediante%20router_comprobaci%C3%B3n.png)
 
 ## Red 5: Enrutamiento estático
 En este último ejercicio se ha construido una pequeña red MAN (Metropolitan Area Network) en la que tres LAN distintas se conectarán entre sí. Para ello, cada red tendrá su correspondiente router, que luego será conectado a la red MAN mediante una interfaz serial. La topologia de red y las parametros introducidos en cada elemento son los siguientes:
 
-![Configuración de red](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_33/diagrama%20de%20flujo_tarea33.png)
+![Configuración de red](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_39/images/Enrutamiento%20est%C3%A1tico.png)
 
 Para que un paquete de datos pueda "viajar" desde una red a otra, se ha configurado en cada router una tabla de enrutamiento estático, donde se especifican dos direcciones de red: la primera para la red de destino final y la segunda para el siguiente destino de los datos. Por ejemplo, si en nuestra red el PCO quiere mandar un mensaje al PC4 (red: 10.1.50.0), en las tablas de enrutamiento del "Router0" y Router1" tendrán que aparecer los siguientes datos:
 - Router0: 10.1.50.0/24 via 200.33.146.2
@@ -97,7 +97,7 @@ Para que un paquete de datos pueda "viajar" desde una red a otra, se ha configur
 
 Así, la información irá primero al "Router0", donde gracias a la información de ruteo se redirigirá al "Router1" y "Router2", donde finalmente llegará a su destino.
 
-![Comprobación de red](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_33/diagrama%20de%20flujo_tarea33.png)
+![Comprobación de red](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_39/images/Enrutamiento%20est%C3%A1tico_comprobaci%C3%B3n.png)
 
 ## Bibliografía
 - https://www.itesa.edu.mx/netacad/introduccion/course/module8/8.1.2.3/8.1.2.3.html
