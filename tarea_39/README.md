@@ -24,9 +24,9 @@ con dirección IP 171.16.1.0 y mascára de subred 255.255.255.0:
 
 ![Configuración de red](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_39/images/Servidor%20web%20y%20DNS.png)
 
-En el servidor web se han guardado los archivos html que contiene la página web, y en el servidor DNS, el nombre de la página y su correspondiente dirección IP. Cuando uno de los ordenadores tecleé una dirección en su navegador, este realizará primero una consulta DNS para saber en que dirección se encuentra el servidor web que aloja la pagina web. Una vez resuelta la consulta, el ordenador cliente establecerá comunicación con la dirección IP del servidor.
+En el servidor web se han guardado los archivos html que contiene la página web, y en el servidor DNS, el nombre de la página y su correspondiente dirección IP. Cuando uno de los ordenadores tecleé una dirección en su navegador, este realizará primero una consulta DNS para saber en que dirección se encuentra el servidor web que aloja la página web. Una vez resuelta la consulta, el ordenador cliente establecerá comunicación con la dirección IP del servidor.
 
-En este caso, para comprobar el correcto funcionamiento de la red, se ha navegado desde los PC a la pagina web "www.holamundo.es" previamente registrada en los servidores, obteniendo los siguientes resultados:
+En este caso, para comprobar el correcto funcionamiento de la red, se ha navegado desde los PC a la página web "www.holamundo.es" previamente registrada en los servidores, obteniendo los siguientes resultados:
 
 ![Resultados de la navegación](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_39/images/Servidor%20web%20y%20DNS_comprobacion.png)
 
@@ -53,7 +53,7 @@ Para comprobar que el servicio DHCP ha funcionado correctamente en la configurac
 
 ## Red 3: VLAN básica
 
-En el siguiente ejercicio se ha construido una red con distintas VLAN. Este tipo de redes, aunque fisicamente esten conectados a un mismo router o switch, permite crear redes virtuales diferentes e independientes, segmentando a los clientes y restrigiendo el acceso desde una red a otra. En la red diseñada se han usado dos VLAN distintas para los departamentos de recursos humanos (2) y sistemas (3), donde sus "clientes" se conectan a traves de dos switches que estan interconectados gracias a un enlace "trunk" en el último interfaz de cada switch. El enlace "trunk" se configura en uno o más puertos de un switch para permitir el paso del tráfico de las distintas VLANs que hemos creado.
+En el siguiente ejercicio se ha construido una red con distintas VLAN. Este tipo de redes, aunque físicamente esten conectados a un mismo router o switch, permite crear redes virtuales diferentes e independientes, segmentando a los clientes y restrigiendo el acceso desde una red a otra. En la red diseñada se han usado dos VLAN distintas para los departamentos de recursos humanos (2) y sistemas (3), donde sus "clientes" se conectan a traves de dos switches que estan interconectados gracias a un enlace "trunk" en el último interfaz de cada switch. El enlace "trunk" se configura en uno o más puertos de un switch para permitir el paso del tráfico de las distintas VLANs que hemos creado.
 
 Por lo tanto, el esquema de la red diseñada y los datos introducidos en cada elemento para su correcto funcionamiento son los siguientes:
 
@@ -70,7 +70,7 @@ solo ha sido satisfactorio el envio de mensajes entre los ordenadores pertenecie
 ![Comprobación de red 2](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_39/images/VLAN%20b%C3%A1sica_comprobaci%C3%B3n%201.png)
 
 ## Red 4: VLAN mediante router
-En este ejercicio se crean tres redes VLAN en un switch, que posteriormente se comunican mediante un router. Esta topologia permitirá que diferentes VLAN se comuniquen entre si, ya que una estación que pertenece a una VLAN no puede comunicarse con ningún dispositivo de otra VLAN solo mediante un switch (Red 3) pero si mediante un router.
+En este ejercicio se crean tres redes VLAN en un switch, que posteriormente se comunican mediante un router. Esta topología permitirá que diferentes VLAN se comuniquen entre sí, ya que una estación que pertenece a una VLAN no puede comunicarse con ningún dispositivo de otra VLAN solo mediante un switch (Red 3) pero si mediante un router.
 
 En este ejercicio se han creado las siguientes VLAN:
 
@@ -78,7 +78,7 @@ En este ejercicio se han creado las siguientes VLAN:
 - VLAN DESAROLLO (3): puertos 9-16
 - VLAN REDES (4): puertos 17-23
 
-Una vez conectados los clientes a su correspondiente interfaz del switch, esta se conecta al router mediante un enlace trunk (puerto 24). Una vez en el router, se usa el tipo de configuración “Router-on-a-stick” en la cual una única interfaz física enruta el tráfico entre varias VLAN en una red. Para ello, se crean tres distintas subinterfaces, que son interfaces virtuales basadas en software, asociadas con una única interfaz física; se configuran en software en un router, y cada subinterfaz se configura de manera independiente con una dirección IP y una asignación de VLAN.
+Una vez conectados los clientes a su correspondiente interfaz del switch, esta se conecta al router mediante un enlace trunk (puerto 24). Una vez en el router, se usa el tipo de configuración “Router-on-a-stick” en el cual una única interfaz física enruta el tráfico entre varias VLAN en una red. Para ello, se crean tres distintas subinterfaces, que son interfaces virtuales basadas en software, asociadas con una única interfaz física; se configuran en software en un router, y cada subinterfaz se configura de manera independiente con una dirección IP y una asignación de VLAN.
 
 En conclusión, la topología y los ajustes parametrizados en cada dispositivo son los siguientes:
 ![Configuración de red](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_39/images/VLAN%20mediante%20router.png)
@@ -87,7 +87,7 @@ Y las comprobaciones de que hay conexión entre mismas y distintas VLAN:
 ![Comprobación de red](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_39/images/VLAN%20mediante%20router_comprobaci%C3%B3n.png)
 
 ## Red 5: Enrutamiento estático
-En este último ejercicio se ha construido una pequeña red MAN (Metropolitan Area Network) en la que tres LAN distintas se conectarán entre sí. Para ello, cada red tendrá su correspondiente router, que luego será conectado a la red MAN mediante una interfaz serial. La topologia de red y las parametros introducidos en cada elemento son los siguientes:
+En este último ejercicio se ha construido una pequeña red MAN (Metropolitan Area Network) en la que tres LAN distintas se conectarán entre sí. Para ello, cada red tendrá su correspondiente router, que luego será conectado a la red MAN mediante una interfaz serial. La topología de red y las parametros introducidos en cada elemento son los siguientes:
 
 ![Configuración de red](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_39/images/Enrutamiento%20est%C3%A1tico.png)
 
