@@ -22,7 +22,7 @@ En este caso, queremos que la consulta realizada seleccione todas las columnas d
 ## Query 2
 
 #### Enunciado
-![Enunciado]((https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_43/images/2_Brief.png)
+![Enunciado](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_43/images/2_Brief.png)
 
 #### Sentencia SQL
 
