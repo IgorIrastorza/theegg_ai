@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* la foto se ve con el live server pero si lo ejecutas del navegador deja de verse tio*/
+    background-image: url("../images/background.jpg");
+    /*background-image: no-repeat;
+    background-image: fixed;
+    background-image: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;*/
+    font-family: 'Barlow Condensed', sans-serif;;
+}
+
+
+.container{
+    width: 100%;
+    font-size: 40px;
+    margin: auto;
+}
+
+.nav_main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav.menu{
+    /*algo no funciona con el puto flex de mierda*/
+    /*sigue el video https://www.youtube.com/watch?v=Q2imkhmhOFo en el minuto 16*/
+    display: flex;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
