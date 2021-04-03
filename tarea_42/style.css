@@ -1,45 +1,104 @@
 *{
     box-sizing: border-box;
-    margin: 0;
     padding: 0;
+    margin: auto;
 }
 
 body{
-    /* la foto se ve con el live server pero si lo ejecutas del navegador deja de verse tio*/
-    background-image: url("../images/background.jpg");
-    /*background-image: no-repeat;
+    background-image: url("https://raw.githubusercontent.com/IgorIrastorza/theegg_ai/master/tarea_42/images/background.jpg");
+    background-image: no-repeat;
     background-image: fixed;
     background-image: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;*/
+    background-size: cover;
     font-family: 'Barlow Condensed', sans-serif;;
 }
 
-
 .container{
     width: 100%;
-    font-size: 40px;
-    margin: auto;
+    color: white;
 }
 
-.nav_main{
+.nav-main{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    font-size: 25px;
 }
 
-.nav.menu{
-    /*algo no funciona con el puto flex de mierda*/
-    /*sigue el video https://www.youtube.com/watch?v=Q2imkhmhOFo en el minuto 16*/
+.nav-brand{
+    width: 90px;
+}
+.nav-menu{
     display: flex;
+    justify-content: space-between;
 }
 
-ul{
+.nav-menu li{
+    padding: 50px;
+}
+
+.nav-main ul{
     list-style: none;
 }
+
 a{
     color: white;
     text-decoration: none;
+}
+
+.nav-main a:hover{
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.separator{
+    color: white;
+}
+
+.content{
+    /*https://stackoverflow.com/questions/5135019/css-opacity-only-to-background-color-not-the-text-on-it*/
+    background: rgba(25, 25, 25, .5);
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.content h1{
+    margin-top: 10px;
+}
+
+.content p{
+    max-width: 650px;
+}
+
+.btn{
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: rgba(25, 25, 25, .5);
+    border: 1px solid #fff;
+    margin: 10px 0;
+
+}
+
+.content p{
+    margin-bottom: 10px;
+}
+
+#video1{
+    margin-bottom: 40px;
+}
+
+#video2{
+    margin-bottom: 40px;
+}
+.footer{
+    background: rgba(25, 25, 25, .5);
+    display: grid;
+}
+.copyright-text{
+    color: white;
 }

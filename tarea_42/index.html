@@ -5,6 +5,8 @@
         <meta charset="utf-8" />
         <title>Tarea 42</title>
         <link rel="shortcut icon" href="images/favicon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <meta name="description" content="Esta es mi primera página web" />
         <meta name="author" content="Igor Irastorza" />
         <meta name="keywords" content="IA, The Egg.ai, Inteligencia Artificial" />
@@ -14,15 +16,14 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
         <!--google font_Barlow Condensed-->
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap" rel="stylesheet">
     </head>
-    <!--sigue el video https://www.youtube.com/watch?v=Q2imkhmhOFo en el minuto 16-->
+    <!--sigue el video https://www.youtube.com/watch?v=Q2imkhmhOFo en el minuto 35-->
     <body>
-        
         <div class="container">
-            <nav class="nav_main">
-                <img src="images/logo.png" class="nav_brand">
-                <ul class="nav_menu">
+            <nav class="nav-main">
+                <img src="images/logo.png" class="nav-brand"/>
+                <ul class="nav-menu">
                     <li>
                         <a href="#">Inicio
                             <i class="fas fa-home"></i>
@@ -30,11 +31,11 @@
                     </li>
 
                     <li>
-                        <a href="#">Quienes somos</a>
+                        <a href="#">Quiénes somos</a>
                     </li>
                     
                     <li>
-                        <a href="#">Que hacemos</a>
+                        <a href="#">Qué hacemos</a>
                     </li>
                     
                     <li>
@@ -46,17 +47,45 @@
                     </li>
 
                 </ul>
-                <ul class="nav_menu_search">
+                <ul class="nav-menu-search">
                     <a href="#">
                         <i class="fas fa-search"></i>
                     </a>
                     
                 </ul>
-            </nav> 
-        </div>
+            </nav>
+            <hr class="separator">
 
-        <footer>
-            <a href='https://www.freepik.com/photos/car'>Car photo created by wirestock - www.freepik.com</a>
-        </footer>
+            <div class=content>
+                <div>
+                    <h1>¿Qué es la inteligencia artificial?</h1>
+                    <a class="btn" href="https://www.youtube.com/watch?v=NSf3o-wxtQ0">Source <i class="fas fa-angle-double-right"></i></a>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque, iste assumenda, pariatur nam est cupiditate distinctio voluptatibus praesentium repellendus, corrupti dignissimos ullam aliquid perspiciatis eveniet ab architecto aperiam beatae hic.</p>
+                    <video id="video1" class="video" width="640" height="360" controls preload>
+                        <source src="video/Qué es la inteligencia artificial.mp4">
+                    </video>
+                </div>
+                <div>
+                    <h1>¿Cómo se aplica?</h1>
+                    <a class="btn" href="https://www.youtube.com/watch?v=9ydhDQaLAqM">Source <i class="fas fa-angle-double-right"></i></a>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque, iste assumenda, pariatur nam est cupiditate distinctio voluptatibus praesentium repellendus, corrupti dignissimos ullam aliquid perspiciatis eveniet ab architecto aperiam beatae hic.</p>
+                    <video id="video2" class="video" width="640" height="360" controls>
+                        <source src="video/Cómo se aplica.mp4">
+                    </video>
+                </div>
+            </div>
+        
+            <div class="footer">
+                <div>
+                    <a href='https://www.freepik.com/photos/car'>Car photo created by wirestock - www.freepik.com</a>
+                </div>
+                <div>
+                    <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by
+                        <a href="#">Igor Irastorza Azanza</a>.
+                </div>
+            </div>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/annyang.min.js"></script>
+            <script src="main.js"></script>
+        </div>
     </body>
 </html>
