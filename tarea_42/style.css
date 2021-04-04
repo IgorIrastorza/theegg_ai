@@ -30,6 +30,7 @@ body{
 .nav-brand{
     width: 90px;
 }
+
 .nav-menu{
     display: flex;
     justify-content: space-between;
@@ -95,10 +96,13 @@ a{
 #video2{
     margin-bottom: 40px;
 }
+
 .footer{
     background: rgba(25, 25, 25, .5);
     display: grid;
+    margin-bottom: 5px;
 }
+
 .copyright-text{
     color: white;
 }

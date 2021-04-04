@@ -1,10 +1,12 @@
 var video1 = document.getElementById("video1");
 var video2 = document.getElementById("video2");
 
+//Aparecerá una alerta en el navegador si no funciona el reconocimiento por voz.//
 if (!annyang) {
-  alert("Tu navegador no soporta el reconocimiento de voz. Esto puede ser debido a dos razones: \n - No estas entrando en la aplicación mediante una solicitud http. \n - El navegador con el que estas ejecutando la página web no es Chrome.");
+  alert("Tu navegador no soporta el reconocimiento de voz. Esto puede ser debido a dos razones: \n - No estas entrando en la aplicación mediante una solicitud http (no has creado el servidor local virtual). Lee atentamente los pasos a seguir leyendo el archivo README.md del repositorio. \n - El navegador con el que estas ejecutando la página web no es Google Chrome.");
 };
 
+//En este fragmento se han definido los comandos y el inicio de funcionamiento del paquete annyang.//
 if (annyang) {
   var commands = {
     'Hola': function() {
