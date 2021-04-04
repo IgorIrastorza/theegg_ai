@@ -24,15 +24,15 @@ Para ello, recomiendo usar el módulo `SimpleHTTPServer` de Python. Los pasos a 
 3. **Ir al directorio de los archivos web:** usamos el comando `cd` para llegar en este caso hasta la carpeta `tarea_42`.
 4. **Activar el servidor local:** ejecutamos el comando `python -m http.server` en el CMD. Nos indicará en el puerto en el que se ha activado el servidor. Por defecto será en el puerto 8000 (METER FOTO):
 
-![CMD](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_39/images/Servidor%20web%20y%20DNS.png)
+![CMD](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_42/images/screenshot_1.png)
 
 5. **Abrir `Google Chrome` (obligatorio para el correcto funcionamiento de los comandos por voz) y introducir la url `localhost:8000`** (METER FOTO):
 
-![URL del navegador](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_39/images/Servidor%20web%20y%20DNS.png)
+![URL del navegador](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_42/images/screenshot_2.png)
 
 Si no ha ocurrido ningún error, debería visualizar la siguiente página web (METER FOTO):
 
-![Captura de pantalla de la página web](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_39/images/Servidor%20web%20y%20DNS.png)
+![Captura de pantalla de la página web](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_42/images/screenshot_3.png)
 
 Para comprobar que el reconocimiento por voz están funcionando correctamente, puede utilizar el comando `Hola`, que devolverá una alerta de navegador. Si no funciona, comprueba que está entrando al archivo html mediante una petición `http`
  y que el navegador es `Google Chrome`.
