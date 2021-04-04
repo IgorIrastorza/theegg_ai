@@ -29,7 +29,7 @@ Para ejecutar y visualizar correctamente todas las funciones y complementos de l
 Para ello, recomiendo usar el módulo `SimpleHTTPServer` de Python. Los pasos a seguir para activarlo son muy sencillos:
 
 1. **Instalar Python (si ya lo tienes salta al paso 2):** Ve a [python.org](https://www.python.org/downloads/) o instala directamente el paquete de [Anaconda](https://www.anaconda.com/products/individual).
-2. **Abrir el CMD:** si tienes instalado Python mediante Anaconda, abre directamente el CMD de Anaconda `Anaconda Prompt`.
+2. **Abrir el CMD:** si tienes instalado Python mediante Anaconda, abré directamente el CMD de Anaconda `Anaconda Prompt`.
 3. **Ir al directorio de los archivos web:** usamos el comando `cd` para llegar en este caso hasta la carpeta `tarea_42`.
 4. **Activar el servidor local:** ejecutamos el comando `python -m http.server` en el CMD. Nos indicará en el puerto en el que se ha activado el servidor. Por defecto será en el puerto 8000:
 
@@ -39,7 +39,8 @@ Para ello, recomiendo usar el módulo `SimpleHTTPServer` de Python. Los pasos a 
 
 ![URL del navegador](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_42/images/screenshot_2.png)
 
-Si no ha ocurrido ningún error, debería visualizar la siguiente página web:
+En la siguiente [página web](https://developer.mozilla.org/es/docs/Learn/Common_questions/set_up_a_local_testing_server) se explica también detalladamente como realizar todos los pasos.
+No obstante, si no ha ocurrido ningún error, debería visualizar la siguiente página web:
 
 ![Captura de pantalla de la página web](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_42/images/screenshot_3.png)
 
