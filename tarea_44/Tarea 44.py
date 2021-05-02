@@ -21,6 +21,7 @@ class Sum:
         self.time2 = 0
 
     def data(self):
+        # Está función va ejecutando las funciones y cambiando el número n
         for j in range(4):
             self.sum_linear()
             self.sum_constant()
@@ -28,6 +29,7 @@ class Sum:
             self.number *= 10
 
     def sum_linear(self):
+        # Está función ejecuta el algoritmo lineal (Algoritmo 1)
         t0 = time.time()
         for i in range(self.number + 1):
             self.result1 = self.result1 + i
@@ -35,6 +37,7 @@ class Sum:
         self.time1 = t1 - t0
 
     def sum_constant(self):
+        # Está función ejecuta el Método de Gauss (Algoritmo 2)
         t0 = time.time()
         self.result2 = int((self.number / 2) * (self.number + 1))
         t1 = time.time()
