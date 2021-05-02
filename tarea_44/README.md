@@ -13,13 +13,13 @@ Para ello, se han planteado 2 algoritmos distintos, de los que luego se medirá 
 
 - Algoritmo 1: el primer algoritmo ha sido planteado usando el Método de Gauss, en el que se caracteriza la suma de n números de la siguiente manera:
 
-    ![Algoritmo constante](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_44/images/1_Lineal.png)
+    ![Algoritmo constante](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_44/images/2_Gauss.png)
 
     Como se observa, una sola operación es suficiente para hacer la suma desde 0 a n, siendo n cualquier número. Por lo tanto, la complejidad de este algoritmo será constante [O(1)].
 
 - Algoritmo 2: este segundo algoritmo consiste en hacer suma manual con cada numero desde 0 hasta n, por lo que tendremos el mismo número de operaciones que el número n:
 
-    ![Algoritmo lineal](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_44/images/2_Gauss.png)
+    ![Algoritmo lineal](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_44/images/1_Lineal.png)
 
     Eso quiere decir que la complejidad del algoritmo sera lineal [O(n)], manteniendo una relación lineal entre el tamaño del valor de entrada y el tiempo de ejecución.
 
@@ -38,7 +38,7 @@ La primera linea de cada ejecución es la correspondiente al primer algoritmo li
 
 Como se puede observar, el tiempo de ejecución del primer algoritmo va creciendo en correspondencia con el tamaño del valor que se introduce. Para afirmar si el crecimiento es lineal, se han exportado los datos a un Excel y realizado una regresión lineal:
 
-![Regresión lineal](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_44/images/4_RegresiónLineal.jpg)
+![Regresión lineal](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_44/images/4_RegresiónLineal.png)
 
 La conclusión es que la regresión lineal es exacta al 100%, con una ecuación lineal `y = 1E-07x + 0,0922` y un R-cuadrado (es una medida estadística de qué tan cerca están los datos de la línea de regresión ajustada) del 100%.
 
