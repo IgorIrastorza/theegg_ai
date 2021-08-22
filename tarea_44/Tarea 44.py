@@ -30,6 +30,7 @@ class Sum:
 
     def sum_linear(self):
         # Está función ejecuta el algoritmo lineal (Algoritmo 1)
+        self.result1 = 0
         t0 = time.time()
         for i in range(self.number + 1):
             self.result1 = self.result1 + i
