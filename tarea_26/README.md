@@ -1,34 +1,24 @@
-﻿# Tarea 33
+﻿# Tarea 26
 
 ## Enunciado
-En este caso, se tiene que entender y dibujar el diagrama de flujo del programa de picachu tal y como
-se explica en el vídeo que se adjunta y posteriormente codificarlo mediante un lenguaje de
-programación, es decir, construir el programa tal cual se indica en el diagrama.
+En vuestro trabajo debéis:
+1. Ser objetivos y neutrales en el análisis.
+2. Debéis ofrecer una visibilidad completa del fenómeno Covid-19 en Araba, Bizkaia y Gipuzkoa.
+3. Debéis procurar describir tendencias y relaciones entre las variables objeto de estudio.
+4. El documento debe ayudar al lector a la fácil comprensión del tema y a interpretar los resultados de 
+modelos estadísticos más complejos mediante modelos simples.
+5. El documento no debe extenderse más de 20 páginas y debe contener un índice.
 ___
 
 ## Solución
-El programa ha sido planteado siguiendo el siguiente diagrama de flujo:
+El análisis completo de los efectos de la COVID-19 en Euskadi está disponible en el archivo `Informe COVID-19.pdf`.
 
-![Algoritmo a aplicar en cada etapa](https://github.com/IgorIrastorza/theegg_ai/blob/master/tarea_33/diagrama%20de%20flujo_tarea33.png)
+Para la elaboración de las gráficas y los resultados estadísticos se ha utilizado como fuente de datos el catalógo de datos abierto del Gobierno Vasco y Español. Aunque el enlace está disponible en el apartado de bibliografía, los archivos de datos tipo JSON explotados en este trabajo están también disponibles en la carpeta `JSON` del repositorio.
 
-Ejemplo de ejecución del programa:
+Para la explotación de los datos se han elaborado tres archivos Python distintos: `Tarea 26_1.py`, `Tarea 26_2.py`, `Tarea 26_3.py`
 
-```
-- Pokemon número 1
+De estos tres script de Python se generan distintos resultados estadísticos (disponibles en el informe y si se ejecutan los archivos) y 10 gráficas distintas que estan guardados en la carpeta `Graphics` y repartidos por el informe.
 
-Introduce el nombre del pokemon : Pikachu
-
-Introduce su poder de ataque: 30
-
-- Pokemon número 2
-
-Introduce el nombre del pokemon : Charizard
-
-Introduce su poder de ataque: 25
--  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
-Charizard es el pokemon ganador!
-
-```
 
 ## Bibliografía
-- https://www.youtube.com/watch?v=SDv2vOIFIj8
+- https://datos.gob.es/catalogo/a16003011-evolucion-del-coronavirus-covid-19-en-euskadi1
