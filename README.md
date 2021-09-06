@@ -28,3 +28,5 @@ Repository with all the works done in the Artificial Intelligence school The Egg
 - **Tarea 44**: Análisis del rendimiento de las aplicaciones de IA
 
 - **Tarea 45**: Algoritmos de búsqueda
+
+- **Tarea 49**: Aprender a pensar como un programador: Introducción a la POO
