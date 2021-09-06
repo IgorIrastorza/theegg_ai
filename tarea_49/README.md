@@ -61,7 +61,7 @@ Ejemplo de ejecución:
 `- DNI: None`
 '
 
-### Ejercicio 2
+## Ejercicio 2
 En el segundo archivo `Tarea 49_2.py` se encuentra el script para la construcción de la clase `Cuenta` y sus respectivos atributos y métodos. El planteamiento del ejercicio es muy similar al anterior explicado arriba.
 
 Al igual que en el anterior ejercicio, los atributos contienen algoritmos de validación dentro de los metodos getter y el programa también contiene una función `main()` para ejecutar un pequeño ejemplo de como funciona la clase construida.
