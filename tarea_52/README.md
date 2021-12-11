@@ -24,7 +24,7 @@ La comprensión de los tipos de estructura de datos y sus principales conceptos 
 
 ## Ejercicio 1
 
-Para la ejecución del primer ejercicio (`Tarea 52_1.py`) el tipo de estructura de datos usado han sido las listas y tuplas, que pertenecen al grupo de los arrays. Las 4 primeras fases del ejercicio, donde las principales fases son inserción, eliminación y busqueda, han sido realizadas usando únicamente listas. Para la última fase, donde se pide la frecuencia de repetición de cada elemento de la lista, se ha combinado con la estructura de datos de tuplas con la lista.
+Para la ejecución del primer ejercicio (`Tarea 52_1.py`) el tipo de estructura de datos usado han sido las listas y tuplas, que pertenecen al grupo de los arrays. Las 4 primeras fases del ejercicio, donde las principales operaciones son inserción, eliminación y busqueda, han sido realizadas usando únicamente listas. Para la última fase, donde se pide la frecuencia de repetición de cada elemento de la lista, se ha combinado la estructura de datos de tuplas con la lista.
 
 Ejemplo de ejecución:
 
