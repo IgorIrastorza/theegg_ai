@@ -1,4 +1,4 @@
-# Tarea 52
+# Tarea 49
 
 ## Enunciado
 Intenta comprender que significa la Programación Orientada a Objetos (POO) y define los siguientes conceptos: clase, objeto, método, propiedad/atributo, instancia, constructor, instancia, encapsulamiento, herencia. Debes profundizar y comprender qué significa esta nueva metodología para la programación y recapacitar en cómo afecta en tu manera de pensar a la hora de programar.
