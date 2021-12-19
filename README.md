@@ -32,3 +32,5 @@ Repository with all the works done in the Artificial Intelligence school The Egg
 - **Tarea 49**: Aprender a pensar como un programador: Introducción a la POO
 
 - **Tarea 52**: Estructura de datos
+
+- **Tarea 95**: Media docena de ejercicios en Python
