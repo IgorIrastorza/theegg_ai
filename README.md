@@ -33,4 +33,6 @@ Repository with all the works done in the Artificial Intelligence school The Egg
 
 - **Tarea 52**: Estructura de datos
 
+- **Tarea 94**: Crear módulos propios en Python
+
 - **Tarea 95**: Media docena de ejercicios en Python
