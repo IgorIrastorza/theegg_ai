@@ -13,12 +13,12 @@ Una vez creado el módulo, crea un script `calculos.py` en el mismo directorio e
 
 ## Resolución
 
-El primer paso al desarrollar la tarea ha sido definir las distintas funciones que tendrá el módulo de `calculadora.py`:
-- `number()`: comprueba si los dos parametros de entrada (introducidos por el usuario) son en realidad números enteros. Si la comprobación es afirmativa, devuelve un `True`. Al contrario, si alguno de los parametros de entrada no es un número, devuelve un `False` y un error que aparece en pantalla.
-- `addition()`: primero llama a la función `number()` para comprobar si los dos parametros son números. Si es así, devuelve la suma de los dos números. Si no devuelve un `NULL`.
--`susbtraction()`: primero llama a la función `number()` para comprobar si los dos parametros son números. Si es así, devuelve la resta del primer número menos el segundo número. Si no devuelve un `NULL`.
-- `multiplication()`: primero llama a la función `number()` para comprobar si los dos parametros son números. Si es así, devuelve la multiplicación de los dos números. Si no devuelve un `NULL`.
-- `division()`: primero llama a la función `number()` para comprobar si los dos parametros son números. Si es así, devuelve la división del primer número por el segundo número. Si no devuelve un `NULL`.
+El primer paso al desarrollar la tarea ha sido definir las distintas funciones que tendrá el módulo `calculadora.py`:
+- `number()`: comprueba si los dos parámetros de entrada (introducidos por el usuario) son en realidad números enteros. Si la comprobación es afirmativa, devuelve un `True`. Al contrario, si alguno de los parámetros de entrada no es un número, devuelve un `False` y un error que aparece en pantalla.
+- `addition()`: primero llama a la función `number()` para comprobar si los dos parámetros son números. Si es así, devuelve la suma de los dos números. Si no devuelve un `NULL`.
+- `susbtraction()`: primero llama a la función `number()` para comprobar si los dos parámetros son números. Si es así, devuelve la resta del primer número menos el segundo número. Si no devuelve un `NULL`.
+- `multiplication()`: primero llama a la función `number()` para comprobar si los dos parámetros son números. Si es así, devuelve la multiplicación de los dos números. Si no devuelve un `NULL`.
+- `division()`: primero llama a la función `number()` para comprobar si los dos parámetros son números. Si es así, devuelve la división del primer número por el segundo número. Si no devuelve un `NULL`.
 
 Por otro lado, se ha desarrollado un segundo programa (`calculos.py`) donde se pide al usuario que introduzca los dos números y se hacen las llamadas al módulo `calculadora.py` en función de la acción que desea realizar el usuario (suma, resta, multiplicación o división).
 
@@ -38,5 +38,5 @@ Ejemplo de ejecución:
 
 `Resultado de la división:  0.17777777777777778`
 
-
-
+## Ejecución del programa
+Para ejecutar el programa simplemente hace falta ejecutar el archivo `calculos.py` y seguir las instrucciones que irán saliendo en consola.
