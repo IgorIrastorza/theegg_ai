@@ -22,13 +22,13 @@ def main():
         # ...el programa no llamará a ninguna función.
         if action == '1':
             print('Resultado de la suma: ', calc.addition(number1, number2))
-        if action == '2':
+        elif action == '2':
             print('Resultado de la resta: ',
                   calc.substraction(number1, number2))
-        if action == '3':
+        elif action == '3':
             print('Resultado de la multiplicación: ',
                   calc.multiplication(number1, number2))
-        if action == '4':
+        elif action == '4':
             print('Resultado de la división: ',
                   calc.division(number1, number2))
     else:
