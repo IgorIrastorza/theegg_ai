@@ -3,8 +3,6 @@ Repository with all the works done in the Artificial Intelligence school The Egg
 
 ## Completed tasks (with deliverables)
 
-- **Tarea 8**: Materializando el problema: Casos de uso (vol.1)
-
 - **Tarea 21**: Empezar con los algoritmos
 
 - **Tarea 22**: El algoritmo del lechero
@@ -34,6 +32,8 @@ Repository with all the works done in the Artificial Intelligence school The Egg
 - **Tarea 49**: Aprender a pensar como un programador: Introducción a la POO
 
 - **Tarea 52**: Estructura de datos
+
+- **Tarea 8**: Materializando el problema: Casos de uso (vol.1)
 
 - **Tarea 94**: Crear módulos propios en Python
 
