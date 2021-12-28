@@ -1,7 +1,9 @@
 # The Egg
 Repository with all the works done in the Artificial Intelligence school The Egg.
 
-## Completed tasks
+## Completed tasks (with deliverables)
+
+- **Tarea 8**: Materializando el problema: Casos de uso (vol.1)
 
 - **Tarea 21**: Empezar con los algoritmos
 
