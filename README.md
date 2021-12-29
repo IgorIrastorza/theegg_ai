@@ -31,6 +31,8 @@ Repository with all the works done in the Artificial Intelligence school The Egg
 
 - **Tarea 49**: Aprender a pensar como un programador: Introducción a la POO
 
+- **Tarea 5**: ¿Qué es la IA?
+
 - **Tarea 52**: Estructura de datos
 
 - **Tarea 8**: Materializando el problema: Casos de uso (vol.1)
