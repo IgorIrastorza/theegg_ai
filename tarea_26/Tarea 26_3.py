@@ -63,13 +63,13 @@ def build_data():
         dataframe.iloc[i, 5] = data2['positiveCounts'][i]
 
     return dataframe
-
+dataframe.plot(y='Total positivos', x='Fecha',
+                        title='Evolución de los casos positivos y la tasa R0'
+                        ' en la CAV', figsize=(10, 6), fontsize=10)
 
 def plot(dataframe):
     # Función para diseñar y guardar las gráficas que nos interesan.
-    ax = dataframe.plot(y='Total positivos', x='Fecha',
-                        title='Evolución de los casos positivos y la tasa R0'
-                        ' en la CAV', figsize=(10, 6), fontsize=10)
+    ax = 
     ax2 = dataframe.plot(secondary_y=True, y='Tasa R0', color='grey',
                          x='Fecha', ax=ax)
     plt.axhline(y=1, color='red', linestyle='dashed', linewidth=1)
