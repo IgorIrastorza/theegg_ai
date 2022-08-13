@@ -3,6 +3,8 @@ Repository with all the works done in the Artificial Intelligence school The Egg
 
 ## Completed tasks (with deliverables)
 
+- **Tarea 170**: Librerías para estadística con datos
+
 - **Tarea 21**: Empezar con los algoritmos
 
 - **Tarea 22**: El algoritmo del lechero
