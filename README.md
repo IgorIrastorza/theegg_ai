@@ -3,6 +3,8 @@ Repository with all the works done in the Artificial Intelligence school The Egg
 
 ## Completed tasks (with deliverables)
 
+- **Tarea 118**: Estadística descriptiva para Inteligencia Artificial I
+
 - **Tarea 170**: Librerías para estadística con datos
 
 - **Tarea 21**: Empezar con los algoritmos
