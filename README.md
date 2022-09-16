@@ -7,6 +7,8 @@ Repository with all the works done in the Artificial Intelligence school The Egg
 
 - **Tarea 170**: Librerías para estadística con datos
 
+- **Tarea 173**: Introducción a la librería Pandas
+
 - **Tarea 21**: Empezar con los algoritmos
 
 - **Tarea 22**: El algoritmo del lechero
