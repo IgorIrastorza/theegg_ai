@@ -11,6 +11,8 @@ Repository with all the works done in the Artificial Intelligence school The Egg
 
 - **Tarea 173**: Introducción a la librería Pandas
 
+- **Tarea 177**: Identificación, tratamiento y manejo de Missing Values
+
 - **Tarea 21**: Empezar con los algoritmos
 
 - **Tarea 22**: El algoritmo del lechero
