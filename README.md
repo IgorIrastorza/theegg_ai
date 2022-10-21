@@ -13,6 +13,8 @@ Repository with all the works done in the Artificial Intelligence school The Egg
 
 - **Tarea 177**: Identificación, tratamiento y manejo de Missing Values
 
+- **Tarea 187**: Resolver la falta de datos II
+
 - **Tarea 21**: Empezar con los algoritmos
 
 - **Tarea 22**: El algoritmo del lechero
