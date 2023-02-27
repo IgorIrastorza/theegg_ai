@@ -11,6 +11,8 @@ Repository with all the works done in the Artificial Intelligence school The Egg
 
 - **Tarea 170**: Librerías para estadística con datos
 
+- **Tarea 172**: Recabando datos web
+
 - **Tarea 173**: Introducción a la librería Pandas
 
 - **Tarea 177**: Identificación, tratamiento y manejo de Missing Values
